@@ -9,13 +9,17 @@ export class AppComponent {
 email:string=""
 
 
-  register(){
 
+
+  login(data:any){
+
+console.warn(data);
 
   }
 
-  login(){
+  register(item:any){
 
+console.warn(item);
 
   }
 }
